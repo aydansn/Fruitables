@@ -1,0 +1,58 @@
+.saying {
+  padding: 0px 50px 100px 50px;
+  text-align: center;
+}
+.our {
+  color: yellowgreen;
+  padding-bottom: 20px;
+}
+.client {
+  font-size: 50px;
+  padding: 15px 0px;
+}
+.allClient {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.profile {
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  padding: 20px 40px 0px 40px;
+}
+.yanYana {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yanleft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+.yanleft img {
+  border-radius: 10px;
+}
+.allIconslar {
+  padding: 5px 0px;
+  font-size: 20px;
+  color: #81c408;
+}
+.heart {
+  font-size: 30px;
+  color: orange;
+}
+h2 {
+  color: #405355;
+  padding: 40px 0px 20px 20px;
+}
+p {
+  padding: 15px 0px;
+  font-size: 16px;
+  text-align: start;
+}
+.imagesGra{
+    padding: 0px;
+}

@@ -1,0 +1,69 @@
+h1 {
+  color: #45595b;
+  font-size: 40px;
+}
+.vegetables {
+  padding: 20px 50px;
+}
+.allGrapes {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.first {
+  border-radius: 20px;
+  text-align: start;
+  padding-bottom: 20px;
+  border: 1px solid greenyellow;
+}
+.first img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.first h2 {
+  padding: 10px 0px;
+  color: #45595b;
+}
+.start {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.start h3 {
+  padding-bottom: 10px;
+}
+.start button {
+  padding: 10px 30px;
+  background-color: white;
+  color: #81c408;
+  border: 1px solid orange;
+}
+.first p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+.firstBtn{
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+@media (max-width: 1440px) {
+  .allGrapes {
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .allGrapes {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .allGrapes {
+    display: flex;
+    flex-direction: column;
+  }
+}

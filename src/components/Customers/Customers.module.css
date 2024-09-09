@@ -1,0 +1,51 @@
+.customers {
+  padding: 30px 50px;
+}
+.users {
+  background-color: #f0f2f4;
+  padding: 30px 50px;
+  text-align: center;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+.user {
+  padding: 55px 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+.icons1 {
+  font-size: 50px;
+  color: orange;
+}
+.satisfied {
+  color: #81c408;
+  padding: 20px 0px;
+  font-size: 30px;
+}
+.number {
+  color: #45595b;
+}
+
+@media (max-width: 1440px) {
+  .users {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .users {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .users {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

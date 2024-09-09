@@ -1,0 +1,141 @@
+.bestseller {
+  text-align: center;
+  padding: 80px 0px 30px 0px;
+}
+.bestseller h1 {
+  font-size: 50px;
+}
+.bestP {
+  text-align: center;
+}
+.bestProduct {
+  color: #45595b;
+}
+.allOrganic {
+  display: flex;
+  align-items: center;
+ 
+  gap: 30px;
+ 
+}
+.tomato {
+  gap: 30px;
+  background-color: #f4f6f8;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.tomato img {
+  border-radius: 50%;
+  height: 20vh;
+}
+.tomatos {
+  gap: 30px;
+  
+  background-color: #f4f6f8;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.tomatos img {
+  border-radius: 50%;
+  width: 40%;
+  height: 20vh;
+}
+.allIconslar {
+  padding: 15px 0px;
+  font-size: 20px;
+  color: #81c408;
+}
+.price {
+  padding-bottom: 20px;
+}
+.organicTomato {
+  padding-top: 20px;
+}
+button {
+  padding: 12px 30px;
+  background-color: white;
+  color: #81c408;
+  border: 1px solid orange;
+  border-radius: 50px;
+  margin: 20px 0px;
+}
+.allAdd {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 70px 50px 70px;
+}
+.num1 {
+  text-align: center;
+}
+.num1 img {
+  width: 90%;
+  border-radius: 10px;
+}
+.btnlastBest {
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1440px) {
+  .allOrganic {
+    display: flex;
+    padding: 20px 0px 20px 80px;
+    margin-left: 40px;
+  }
+  .tomato {
+    display: flex;
+      padding: 30px 0px 30px 30px;
+  }
+  .tomatos {
+    display: flex;
+    padding: 30px 30px 30px 30px;
+  }
+  .allAdd {
+    display: flex;
+  }
+  .tomato img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+  .allOrganic {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 10px;
+  }
+  .tomato {
+    display: flex;
+      padding: 30px 0px 30px 10px;
+  }
+  .tomatos {
+    display: flex;
+    padding: 30px 0px 30px 30px;
+  }
+  .allAdd {
+    display: flex;
+  }
+  .tomato img {
+    width: 25%;
+  }
+}
+
+@media (max-width: 500px) {
+  .allOrganic {
+    display: flex;
+    flex-direction: column;
+  }
+  .tomato {
+    display: flex;
+  }
+  .tomatos {
+    display: flex;
+  }
+  .allAdd {
+    display: flex;
+    flex-direction: column;
+  }
+}

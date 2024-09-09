@@ -1,0 +1,24 @@
+.allContact {
+  padding: 80px;
+}
+.centerTouch {
+  padding: 20px 30px;
+  background-color: #f4f6f8;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.centerTouch h1 {
+  color: #81c408;
+}
+.centerTouch .width {
+  color: #747d88;
+  text-align: center;
+  padding: 10px 180px;
+  align-items: center;
+}
+.centerTouch .download {
+  color: #81c408;
+}
+

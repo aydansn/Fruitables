@@ -1,0 +1,62 @@
+.mesafe {
+  padding: 20px 50px 20px 850px;
+}
+.cartTotal {
+  padding: 30px 30px;
+  background-color: #f4f6f8;
+  border-radius: 10px;
+}
+
+.cartTotal h1 {
+  color: #45595b;
+}
+.flat {
+  text-align: end;
+}
+.yanyanashi {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.check {
+  padding: 20px 25px;
+  border-radius: 30px;
+  background-color: #f4f6f8;
+  color: yellowgreen;
+  border: 1px solid orange;
+}
+.check h3 {
+  color: yellowgreen;
+}
+.check:hover {
+  background-color: orange;
+}
+.check h3:hover {
+  color: white;
+}
+.yanForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sag {
+  display: grid;
+  width: 20%;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.yourName {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+.sol {
+  width: 20%;
+}
+.adress {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

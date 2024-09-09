@@ -1,0 +1,80 @@
+.allFresh {
+  padding: 70px 50px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+.fresh {
+  padding: 20px 30px;
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+.box {
+  padding: 20px 10px;
+  background-color: #81c408;
+  text-align: center;
+  border-radius: 10px;
+}
+.box h2 {
+  color: white;
+}
+.box h1 {
+  color: #45595b;
+}
+
+@media (max-width: 1440px) {
+  .allFresh {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .apple img {
+    width: 100%;
+  }
+  .fresh {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+  }
+  .freshapple {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .allFresh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apple img {
+    width: 50%;
+    margin-left: 60px;
+  }
+  .fresh {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+  }
+  .freshapple {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .allFresh {
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .apple img {
+    width: 50%;
+
+  }
+  .fresh {
+    width: 100%;
+  }
+  .freshapple {
+    padding: 0px;
+  }
+}

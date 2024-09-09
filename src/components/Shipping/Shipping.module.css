@@ -1,0 +1,62 @@
+.shipping {
+  padding: 130px 40px;
+}
+.allShipping {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.over {
+  text-align: center;
+}
+.free {
+  background-color: #f4f6f8;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px 0px;
+}
+.car {
+  background-color: orange;
+  color: white;
+  font-size: 50px;
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+h3 {
+  color: #45595b;
+}
+p {
+  color: gray;
+  font-size: 17px;
+  padding: 20px 0px;
+}
+@media (max-width: 1440px) {
+  .allShipping {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .car {
+    margin: 30px 90px;
+  }
+}
+
+@media (max-width: 800px) {
+  .allShipping {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .car {
+    margin: 30px 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .allShipping {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .car {
+    margin: 30px 120px;
+  }
+}

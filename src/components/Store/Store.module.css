@@ -1,0 +1,57 @@
+.store {
+  padding: 30px 50px;
+  background-color: #ffb524;
+}
+.allStore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftStore button {
+  padding: 20px 50px;
+  background-color: #ffb524;
+  color: #45595b;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+.leftStore h1 {
+  font-size: 70px;
+  color: white;
+}
+.leftStore h2 {
+  font-size: 60px;
+  color: #45595b;
+}
+p {
+  color: #45595b;
+}
+
+.rightStore img {
+  width: 100%;
+}
+.rightStore button {
+  padding: 35px 25px;
+  background-color: white;
+  color: #45595b;
+  border-radius: 50px;
+}
+
+@media (max-width: 1440px) {
+  .allStore {
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .allStore {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .allStore {
+    display: flex;
+    flex-direction: column;
+  }
+}

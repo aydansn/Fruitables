@@ -1,0 +1,123 @@
+.butunNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.logoHisse .fruit {
+  color: #81c408;
+  margin: 0px;
+  font-size: 40px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.links a {
+  text-decoration: none;
+  color: gray;
+}
+.links a:hover {
+  color: #81c408;
+}
+.search {
+  font-size: 20px;
+  color: #81c408;
+  border: 1px solid orange;
+  padding: 10px 14px;
+  border-radius: 50px;
+}
+.basket {
+  font-size: 25px;
+  color: #81c408;
+}
+.user {
+  font-size: 25px;
+  color: #81c408;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1440px) {
+  .butunNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+  
+  }
+  a {
+    font-size: 18px;
+  }
+  .navRight {
+    display: flex;
+    margin-left: 50px;
+  }
+  .getInTouch button {
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+  .logoHisse img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .butunNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  a {
+    font-size: 15px;
+  }
+  .navRight {
+    display: flex;
+    margin-left: 0px;
+  }
+  .getInTouch button {
+    margin-left: 45px;
+    padding: 12px 5px;
+  }
+  .logoHisse img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .butunNavbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px; 
+  }
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  a {
+    font-size: 15px;
+  }
+  .navRight {
+    display: flex;
+    margin-left: 0px;
+  }
+  .getInTouch button {
+    margin-left: 100px;
+    padding: 10px 20px;
+  }
+  .logoHisse img {
+    width: 70%;
+  }
+}

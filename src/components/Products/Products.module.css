@@ -1,0 +1,153 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.leftProduct h1 {
+  color: #45595b;
+  font-size: 40px;
+}
+.rightProduct .allProducts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.meat .btn1 {
+  padding: 10px 10px;
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.meat .btn2 {
+  padding: 10px 30px;
+  color: #45595b;
+  background-color: #f4f6f8;
+  border-radius: 20px;
+}
+
+.allGrapes {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.first {
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.first img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.first h2 {
+  padding: 10px 0px;
+  color: #45595b;
+}
+.start {
+  text-align: start;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.start h3 {
+  padding-bottom: 10px;
+}
+.start button {
+  padding: 10px 30px;
+  background-color: white;
+  color: #81c408;
+  border: 1px solid orange;
+}
+.first p {
+  padding: 0px;
+  font-size: 15px;
+}
+
+
+.graH2 {
+  color: #576b6a;
+  padding: 50px;
+}
+.sortButtons {
+  text-align: center;
+}
+.btnlastes {
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: black;
+}
+
+@media (max-width: 1440px) {
+  .imagesGra {
+    width: 260px;
+  }
+  .products {
+    display: flex;
+    padding: 20px 50px;
+  }
+  .rightProduct .allProducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .allGrapes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .imagesGra {
+    width: 40px;
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .rightProduct .allProducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 0px;
+  }
+  .allGrapes {
+  }
+  .first {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightProduct .allProducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0px;
+  }
+  .allGrapes {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
